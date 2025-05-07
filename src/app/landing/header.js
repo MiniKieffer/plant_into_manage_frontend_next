@@ -10,9 +10,6 @@ import Toolbar from '@mui/material/Toolbar';
 import Button from '@mui/material/Button';
 import Container from '@mui/material/Container';
 import { supabase } from '@/lib/supabaseClient';
-import Divider from '@mui/material/Divider';
-import KeyboardControlKeyIcon from '@mui/icons-material/KeyboardControlKey';
-import Typography from '@mui/material/Typography';
 
 const StyledToolbar = styled(Toolbar)(({ theme }) => ({
   display: 'flex',

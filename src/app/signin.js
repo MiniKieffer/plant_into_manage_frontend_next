@@ -15,6 +15,7 @@ import Stack from '@mui/material/Stack';
 import MuiCard from '@mui/material/Card';
 import { styled } from '@mui/material/styles';
 import { supabase } from '@/lib/supabaseClient';
+import GoogleIcon from '@mui/icons-material/Google';
 
 const Card = styled(MuiCard)(({ theme }) => ({
   display: 'flex',
