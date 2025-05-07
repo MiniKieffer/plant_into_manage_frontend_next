@@ -95,7 +95,7 @@ export default function Home() {
     const { error } = await supabase.auth.signInWithOAuth({
       provider: 'google',
       options: {
-        redirectTo: `${window.location.origin}/landing`, // or your desired redirect
+        redirectTo: 'https://plant-into-manage-frontend-next.vercel.app/landing', // or your desired redirect
       }
     });
     if (error) {
